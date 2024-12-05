@@ -1,0 +1,22 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    margin: 8px 0;
+  }
+  
+  label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2); 
+    cursor: pointer;
+  }
+  
+  label.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
